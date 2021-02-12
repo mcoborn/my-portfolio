@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(223, 203, 170);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.header h1 {
+    margin: 10px;
+    border: 10px;
+    padding: 20px;
+    font-size: 60px;
+}
+
+.header h1 .coborn {
+    color: tan;
+}
+
+.header .portfolio-links {
+    display: inline-block;
+    font-size: 25px;
+    flex-direction: row;
+}
+
+a:link {
+    color: rgb(95, 160, 100);
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: forestgreen;
+}
+
+.hero {
+    height: 200px;
+    max-width: 100%;
+    background-image: url(https://i.pinimg.com/originals/98/3d/bb/983dbb0581744419d62a3df55464a7fc.jpg);
+    background-position: center;
+}
+
+.hero p {
+    text-align: center;
+    color: white;
+    background-color: tan;
+    font-size: 40px;
+    letter-spacing: 3px;
+    width: 100%;
+    position: absolute;
+    margin-top: 70px;
+}
+
+.vl {
+    border-left: 2px solid black;
+    display: block;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1px;
+    position: absolute;
+    left: 20%;
+}
+
+.about-me {
+    margin: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+    position: relative;
+}
