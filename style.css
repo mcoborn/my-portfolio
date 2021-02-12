@@ -63,29 +63,32 @@ a:hover {
 }
 
 .about-me {
-    margin: 50px;
-    margin-top: 30px;
-    font-size: 30px;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
-
+.about-me .title {
+    width: 33%;
+    margin-left: 20px;
+}
 .about-me .vl {
     border-left: 2px solid black;
     display: block;
     height: 500px;
     margin: 0 auto;
     width: 1px;
-    position: absolute;
-    left: 20%;
 }
 
-.about-me-image {
-    
+.about-me img {
+    max-height: 350px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 1px solid black;
 }
 
 .about-me p {
     letter-spacing: 2px;
     font-size: 20px;
-    margin: 20px;
-    margin-left: 250px;
+    margin: 50px;
+    margin-left: 75px;
 }
