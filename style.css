@@ -67,14 +67,16 @@ a:hover {
     flex-direction: row;
     width: 100%;
 }
+
 .about-me .title {
     width: 33%;
     margin-left: 20px;
+    margin-top: 200px;
 }
 .about-me .vl {
     border-left: 2px solid black;
     display: block;
-    height: 500px;
+    height: 400px;
     margin: 0 auto;
     width: 1px;
 }
@@ -86,16 +88,114 @@ a:hover {
     border: 1px solid black;
 }
 
+.about-me:hover img {
+    opacity: 0.7;
+    transition: .3s ease;
+}
+
 .about-me p {
     letter-spacing: 2px;
     font-size: 20px;
-    margin-top: 90px;
+    margin-top: 150px;
     margin-left: 75px;
     padding-right: 30px;
 }
-
+.about-me-text-content {
+    display: flex;
+    flex-direction: column;
+}
 hr {
-    transform: rotate(90deg);
-    border: 1px solid black;
-    margin-top: 60px;
+    border: none;
+    border-top: 1px solid black;
+    overflow: visible;
+    text-align: center;
+    height: 50px;
+}
+
+.my-works {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.my-works .title {
+    width: 33%;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+
+.my-works-text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-works img {
+    display: flexbox;
+    flex-direction: row;
+    max-height: 350px;
+    margin: 15px;
+    border: 1px;
+    max-width 100%;
+}
+
+.my-works:hover .img-one {
+    opacity: 0.7;
+    transition: .3s ease;
+}
+
+.my-works:hover .img-two {
+    opacity: 0.7;
+    transition: .3s ease;
+}
+
+.my-works:hover .img-three {
+    opacity: 0.7;
+    transition: .3s ease;
+}
+
+.my-works:hover .img-four {
+    opacity: 0.7;
+    transition: .3s ease;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.contact-me .title {
+    width: 33%;
+    margin-left: 20px;
+}
+
+.contact-me .contact-content {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.contact-me .icons {
+    max-height: 30px
+}
+
+.contact-me p {
+    font-size: 20px;
+}
+
+.resume {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.resume .title {
+    width: 33%;
+    margin-left: 20px;
+}
+
+.resume p{
+    font-size: 30px;
+    text-align: center;
 }
