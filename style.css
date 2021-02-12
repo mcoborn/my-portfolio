@@ -62,20 +62,30 @@ a:hover {
     margin-top: 70px;
 }
 
-.vl {
+.about-me {
+    margin: 50px;
+    margin-top: 30px;
+    font-size: 30px;
+    position: relative;
+}
+
+.about-me .vl {
     border-left: 2px solid black;
     display: block;
     height: 500px;
     margin: 0 auto;
-    margin-top: 10px;
     width: 1px;
     position: absolute;
     left: 20%;
 }
 
-.about-me {
-    margin: 30px;
-    margin-top: 50px;
-    font-size: 30px;
-    position: relative;
+.about-me-image {
+    
+}
+
+.about-me p {
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 250px;
 }
