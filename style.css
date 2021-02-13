@@ -85,7 +85,7 @@ a:hover {
     max-height: 350px;
     margin-left: 50px;
     margin-top: 30px;
-    border: 1px solid black;
+    border: 1px;
 }
 
 .about-me:hover img {
@@ -104,6 +104,7 @@ a:hover {
     display: flex;
     flex-direction: column;
 }
+
 hr {
     border: none;
     border-top: 1px solid black;
@@ -133,30 +134,38 @@ hr {
     display: flexbox;
     flex-direction: row;
     max-height: 350px;
-    margin: 15px;
+    margin-bottom: 5px;
+    margin-right: 15px;
     border: 1px;
     max-width 100%;
 }
 
-.my-works .cite {
+.cite {
+    display: flexbox;
+    flex-direction: row;
+    font-size: 15px;
+    margin-left: 370px;
+    word-spacing: 260px;
+    margin-bottom: 35px;
+    width: 100%;
 }
 
-.my-works:hover .img-one {
+.img-one:hover {
     opacity: 0.7;
     transition: .3s ease;
 }
 
-.my-works:hover .img-two {
+.img-two:hover {
     opacity: 0.7;
     transition: .3s ease;
 }
 
-.my-works:hover .img-three {
+.img-three:hover {
     opacity: 0.7;
     transition: .3s ease;
 }
 
-.my-works:hover .img-four {
+.img-four:hover {
     opacity: 0.7;
     transition: .3s ease;
 }
