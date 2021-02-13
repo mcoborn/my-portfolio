@@ -133,15 +133,17 @@ hr {
     margin-right: 15px;
     border: 1px;
     max-width 100%;
-}
-
-.my-works .img .placeholder {
-    flex-wrap: wrap;
+    z-index: -1;
 }
 
 .img .placeholder {
+    flex-wrap: wrap;
+}
+
+.placeholder {
     position: absolute;
-    z-index: -1;
+    background-color: white;
+    opacity: 0.6;
 }
 
 .cite {
