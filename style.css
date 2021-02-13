@@ -138,6 +138,9 @@ hr {
     max-width 100%;
 }
 
+.my-works .cite {
+}
+
 .my-works:hover .img-one {
     opacity: 0.7;
     transition: .3s ease;
@@ -188,6 +191,7 @@ hr {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .resume .title {
