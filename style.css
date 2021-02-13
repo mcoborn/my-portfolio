@@ -137,6 +137,7 @@ hr {
 }
 
 .img .placeholder {
+    position: absolute;
     flex-wrap: wrap;
 }
 
