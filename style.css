@@ -125,11 +125,6 @@ hr {
     margin-top: 200px;
 }
 
-.my-works-text-content {
-    display: flex;
-    flex-direction: column;
-}
-
 .my-works img {
     display: flexbox;
     flex-direction: row;
@@ -138,6 +133,15 @@ hr {
     margin-right: 15px;
     border: 1px;
     max-width 100%;
+}
+
+.my-works .img .placeholder {
+    flex-wrap: wrap;
+}
+
+.img .placeholder {
+    position: absolute;
+    z-index: -1;
 }
 
 .cite {
