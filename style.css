@@ -145,7 +145,6 @@ hr {
 
 .placeholder {
     position: absolute;
-    flex: row;
     background-color: white;
     opacity: 0.6;
     text-align: center;
