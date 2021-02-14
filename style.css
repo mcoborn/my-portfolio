@@ -103,7 +103,6 @@ hr {
     border-top: 1px solid black;
     overflow: visible;
     text-align: center;
-    height: 50px;
 }
 
 .my-works {
@@ -230,5 +229,14 @@ hr {
     width: 1px;
 }
 
+.contact-me .vl {
+    margin-bottom: -330px;
+}
+
+.resume .vl {
+    margin-bottom: -330px;
+}
+
 @media (min-width: 758px) {
+    body
 }
