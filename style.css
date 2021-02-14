@@ -117,8 +117,9 @@ hr {
     margin-top: 200px;
 }
 
-.my-works .img-container {
+.my-works .img {
     display: flex;
+    flex: row;
 }
 
 .my-works img {
@@ -139,6 +140,7 @@ hr {
 
 .placeholder {
     position: absolute;
+    flex: row;
     background-color: white;
     opacity: 0.6;
     text-align: center;
