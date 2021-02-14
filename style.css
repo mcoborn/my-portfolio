@@ -73,13 +73,6 @@ a:hover {
     margin-left: 20px;
     margin-top: 200px;
 }
-.about-me .vl {
-    border-left: 2px solid black;
-    display: block;
-    height: 400px;
-    margin: 0 auto;
-    width: 1px;
-}
 
 .about-me img {
     max-height: 350px;
@@ -125,8 +118,12 @@ hr {
     margin-top: 200px;
 }
 
+.my-works .img-container {
+    display: flex;
+}
+
 .my-works img {
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     max-height: 350px;
     margin-bottom: 5px;
@@ -188,13 +185,16 @@ hr {
 
 .contact-me .title {
     width: 33%;
+    max-width: 200px;
     margin-left: 20px;
+    margin-top: 150px;
 }
 
 .contact-me .contact-content {
     display: flex;
     flex-direction: row;
     text-align: center;
+    margin: 150px;
 }
 
 .contact-me .icons {
@@ -214,10 +214,20 @@ hr {
 
 .resume .title {
     width: 33%;
+    max-width: 200px;
     margin-left: 20px;
+    margin-top: 150px;
 }
 
 .resume p{
     font-size: 30px;
     text-align: center;
+    margin: 150px;
+}
+
+.vl {
+    border-left: 2px solid black;
+    display: block;
+    height: 300px;
+    width: 1px;
 }
