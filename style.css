@@ -180,7 +180,6 @@ hr {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-bottom: 40px;
 }
 
 .contact-me .title {
@@ -209,7 +208,6 @@ hr {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-bottom: 30px;
 }
 
 .resume .title {
@@ -228,7 +226,7 @@ hr {
 .vl {
     border-left: 2px solid black;
     display: block;
-    height: 300px;
+    height: 400px;
     width: 1px;
 }
 
