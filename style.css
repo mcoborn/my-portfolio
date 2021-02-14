@@ -231,3 +231,6 @@ hr {
     height: 300px;
     width: 1px;
 }
+
+@media (min-width: 758px) {
+}
